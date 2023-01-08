@@ -276,8 +276,15 @@
               </div>-->
               <div class="col-lg-12">
                 <div class="cmt padDiv">
-                  <form id="comment-form" method="post" action="" role="form">
+                  <form id="comment-form" action="https://formsubmit.co/72ab6b34c7d14ef42d5de93505772723" method="post" role="form">
                     <div class="row">
+                      <!-- Honeypot -->
+                      <input type="text" name="_honey" style="display: none;">
+
+                      <!-- Disable captcha -->
+                      <input type="hidden" name="_captcha" value="false">
+
+                      <input type="hidden" name="_next" value="https://okaijeremiah.github.io/success.html">
                       <div class="col-lg-6">
                         <div class="form-group">
                           <input id="form_name" type="text" name="name" class="form-control" placeholder="Name *"
