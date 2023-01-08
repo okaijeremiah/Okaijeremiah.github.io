@@ -281,11 +281,15 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="" method="post" role="form" class="contactForm">
+            <form action="https://formsubmit.co/72ab6b34c7d14ef42d5de93505772723" method="post" role="form" class="contactForm">
               <div class="row">
+                <!-- Honeypot -->
+                <input type="text" name="_honey" style="display: none;">
 
-                <div id="sendmessage">Your message has been sent. Thank you!</div>
-                <div id="errormessage"></div>
+                <!-- Disable captcha -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <input type="hidden" name="_next" value="https://okaijeremiah.github.io/success.html">
 
                 <div class="col-lg-6">
                   <div class="form-group contact-block1">
